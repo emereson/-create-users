@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    min-width: 360px;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Eczar', sans-serif;
+    background-image: url(../appFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h1,h2,h3,h4,p,ul{
+    margin-top: 0;
+    margin-bottom: 0
+}
+button{
+    border: none;
+}
+input{
+    outline: 0;
+}
